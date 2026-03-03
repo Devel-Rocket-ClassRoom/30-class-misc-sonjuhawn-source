@@ -51,7 +51,7 @@ sb1.Append("hello");
 sb1.Append(" ");
 sb1.Append("world");
 string result = sb1.ToString();
-Console.WriteLine(sbresult1);
+Console.WriteLine(sb1);
 
 string sb2 = new StringBuilder()
     .Append("hello")
